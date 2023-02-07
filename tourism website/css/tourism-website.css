@@ -1,0 +1,205 @@
+body {
+
+    background-color: #18caf1;
+    background-image: url("C:/Users/Home/Desktop/software dev course/assignments/tourism website/images/ross_castle_new.jpg");
+    background-size: cover;
+    min-width: 700px;
+}
+
+.navigation {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    background-color: #d9eece;
+    border-right: solid 2px;
+    border-bottom: solid 2px;
+    display: flex;
+    border-radius: 20px;
+    text-decoration: none;
+   
+
+}
+
+.navigation li {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: 1s;
+}
+
+h2 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 55px;
+    color: black;
+    font-weight: 1000;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+    background-color: #d9eece;
+    border-right: solid 2px;
+    /*    border-left: solid 1px;*/
+    border-bottom: solid 2px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    font-weight: 200;
+
+
+}
+
+.more_info {
+
+    text-align: center;
+    background-color: #d9eece;
+    border-radius: 20px;
+    border: solid 1px black;
+    margin-left: 500px;
+    max-width: 300px;
+    margin-top: 100px;
+    margin-right: 20px;
+
+}
+
+.navigation a {
+    text-decoration: none;
+    font-size: 40px;
+    transition:0.5s;
+}
+
+.navigation li a:hover {
+    color: #2c7200;
+    font-size:50px;
+
+}
+
+.selected {
+    font-size: 40px;
+}
+
+.more_info p {
+    padding: 5px;
+}
+
+.sign_up {
+    width: 100px;
+    height: 35px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #200072;
+    color: white;
+    transition:0.5s;
+}
+
+
+button:hover {
+    background-color: #2c7200;
+    font-size:20px;
+    height:40px;
+    width:110px;
+    rotate:360deg;
+
+}
+
+.intro {
+    font-family: arial;
+    width: 300px;
+    height: 650px;
+    /*background-image: url("C:/Users/Home/Desktop/software dev course/assignments/tourism website/images/macgillycuddy.jpg");*/
+    background-color: #d9eece;
+    margin: 20px 10px 10px 20px;
+    padding: 10px;
+    border-radius: 20px;
+    float: left;
+    font-size: 28px;
+
+
+}
+
+.tour {
+    display: inline;
+    margin: 10px;
+    margin-left: 30px;
+    border-radius: 25px;
+    width: 560;
+    height: 315;
+    margin-top: 20px;
+}
+
+.intro_heading {
+    right: 20px;
+}
+
+.att_layout {
+    display: inline;
+    border-radius: 20px;
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 100%;
+
+}
+
+.att_images {
+    border-radius: 30px;
+    width: 500px;
+    height: 300px;
+    display: inline;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.att_images_text {
+    display: inline;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+}
+
+.table {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.map {
+    margin: 20px;
+    border-radius: 20px;
+    display: inline;
+}
+
+.get_in_touch {
+    background-color: #d9eece;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    margin-left: 35px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right:30px;
+
+}
+
+.contact_heading {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 30px;
+}
+a.link{
+    text-decoration: none;
+    color:#200072;
+}
+.feedback {
+    background-color: #d9eece;
+    text-align: center;
+    border-radius: 20px;
+}
